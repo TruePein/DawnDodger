@@ -3,12 +3,12 @@ using System.Collections;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float maxSpeed = 0f;
+    public float maxSpeed;
     bool facingRight = true;
 	// Use this for initialization
 	void Start () 
     {
-        maxSpeed = 10f;
+        //maxSpeed = 100f;
 	}
 	
 	// Update is called once per frame
@@ -16,7 +16,8 @@ public class PlayerMovement : MonoBehaviour
         float hMove = Input.GetAxis("Horizontal");
         float vMove = Input.GetAxis("Vertical");
         var move  = new Vector3(hMove * maxSpeed, vMove * maxSpeed,0);
-        transform.position += move * Time.deltaTime;
+        GetComponent<Rigidbody2D>().AddForce(move);
+        //transform.position += move * Time.deltaTime;
         if (hMove > 0 && !facingRight)
         {
             Flip();
