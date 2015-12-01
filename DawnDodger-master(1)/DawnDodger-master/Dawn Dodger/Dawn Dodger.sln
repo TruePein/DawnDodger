@@ -1,7 +1,7 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{3CC2DFBA-A1B4-D777-2851-84DFA0130958}") = "Dawn Dodger", "Assembly-CSharp.csproj", "{26C4CE45-1DD3-E109-4FE1-AC8F621B8BFB}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dawn Dodger.CSharp", "Dawn Dodger.CSharp.csproj", "{6F62118D-82A2-CB8E-620C-038BD742F29C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,14 +9,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{26C4CE45-1DD3-E109-4FE1-AC8F621B8BFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{26C4CE45-1DD3-E109-4FE1-AC8F621B8BFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{26C4CE45-1DD3-E109-4FE1-AC8F621B8BFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{26C4CE45-1DD3-E109-4FE1-AC8F621B8BFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F62118D-82A2-CB8E-620C-038BD742F29C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F62118D-82A2-CB8E-620C-038BD742F29C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F62118D-82A2-CB8E-620C-038BD742F29C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F62118D-82A2-CB8E-620C-038BD742F29C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+<<<<<<< HEAD:DawnDodger-master(1)/DawnDodger-master/Dawn Dodger/Dawn Dodger.sln
 					GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
@@ -37,4 +38,6 @@ Global
 		$3.scope = text/plain
 	EndGlobalSection
 
+=======
+>>>>>>> origin/master:Dawn Dodger/Dawn Dodger.sln
 EndGlobal
